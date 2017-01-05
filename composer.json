@@ -1,0 +1,23 @@
+{
+  "name": "jinnguyen/puja-migration",
+  "description": "Manage database migration for app",
+  "type": "library",
+  "license": "Apache License 2.0",
+  "keywords": ["Puja", "Migration"],
+  "authors": [
+      {
+          "name": "Jin Nguyen",
+          "email": "w2ajax@gmail.com"
+      }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+  		"jinnguyen/puja-entity": "^1",
+      	"jinnguyen/puja-db": "^1"
+  },
+  "autoload-dev": {
+	  "psr-4": {
+	      "Puja\\Migration\\": "src/"
+	  }
+	}
+}
