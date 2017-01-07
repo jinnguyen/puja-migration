@@ -1,9 +1,9 @@
 {
   "name": "jinnguyen/puja-migration",
-  "description": "Manage database migration for app",
+  "description": "Puja-Migration is a database migration php library, supports both file sql and php",
   "type": "library",
   "license": "Apache License 2.0",
-  "keywords": ["Puja", "Migration"],
+  "keywords": ["Puja", "Migration", "database migration", "php migration"],
   "authors": [
       {
           "name": "Jin Nguyen",
@@ -13,9 +13,10 @@
   "minimum-stability": "stable",
   "require": {
   		"jinnguyen/puja-entity": "^1",
+        "jinnguyen/puja-filesystem": ">=1.1",
       	"jinnguyen/puja-db": "^1"
   },
-  "autoload-dev": {
+  "autoload": {
 	  "psr-4": {
 	      "Puja\\Migration\\": "src/"
 	  }
