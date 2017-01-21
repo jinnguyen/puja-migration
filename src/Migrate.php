@@ -1,6 +1,6 @@
 <?php
 namespace Puja\Migration;
-use Puja\FileSystem\Folder;
+use Puja\Stdlib\Folder\Folder;
 
 class Migrate
 {

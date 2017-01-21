@@ -12,9 +12,9 @@
   ],
   "minimum-stability": "stable",
   "require": {
-  		"jinnguyen/puja-entity": "^1",
-        "jinnguyen/puja-filesystem": ">=1.1",
-      	"jinnguyen/puja-db": "^1"
+  		"jinnguyen/puja-entity": "*",
+        "jinnguyen/puja-stdlib": "*",
+      	"jinnguyen/puja-db": "*"
   },
   "autoload": {
 	  "psr-4": {
